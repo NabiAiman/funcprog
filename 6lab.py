@@ -92,16 +92,6 @@ tuples = (1,2,3,4,5)
 print(Reverse(tuples))
 
 
-#5. Словарь синонимов
-n = int(input())
-dict = {}
-for i in range(n):
-    f, s = map(str, input().split())
-    dict[f] = s
-    dict[s] = f
-s = str(input())
-print(dict[s])
-
 #Резюме
 print("                      Резюме            ")
 
@@ -140,3 +130,14 @@ info.append("Эл.почта : ")
 print(info[0] + '87071376847')
 print(info[1] + 'nabiaiman@gmail.com')
 print("Цель : " + "Получение вакантной должности программиста-стажера")
+
+
+#5. Словарь синонимов
+n = int(input())
+dict = {}
+for i in range(n):
+    f, s = map(str, input().split())
+    dict[f] = s
+    dict[s] = f
+s = str(input())
+print(dict[s])
